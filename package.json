@@ -7,13 +7,15 @@
   "scripts": {
     "dev": "vite src --port 3000",
     "build": "vite build src",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "vite": "^5.2.9",
-    "sass": "^1.62.0"
+    "gh-pages": "^6.3.0",
+    "sass": "^1.62.0",
+    "vite": "^5.2.9"
   },
   "dependencies": {
     "gsap": "^3.7.0",
