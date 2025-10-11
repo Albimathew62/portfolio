@@ -64,12 +64,12 @@ export default class Home {
       };
     });
 
-    emailButton.addEventListener("click", (e) => {
+    emailButton.addEventListener("download", (e) => {
       copyText(e);
-      toCopyText.textContent = "copied";
+      toCopyText.textContent = "downloading";
 
       setTimeout(() => {
-        toCopyText.textContent = "Click To Copy";
+        toCopyText.textContent = "Click To Download";
       }, 2000);
     });
   }
