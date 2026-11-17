@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Albi Mathews — Full-Stack AI Systems Engineer</title>
+<meta name="description" content="Albi Mathews — Full-stack AI systems engineer in Kerala, India. Production LLM systems, FastAPI backends, WhatsApp AI products and open-source tools like ContextEngine.">
+<meta property="og:title" content="Albi Mathews — Full-Stack AI Systems Engineer">
+<meta property="og:description" content="Albi Mathews — Full-stack AI systems engineer in Kerala, India. Production LLM systems, FastAPI backends, WhatsApp AI products and open-source tools like ContextEngine.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/albi-wide.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Albi Mathews — Full-Stack AI Systems Engineer">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0A0A}
+a{color:#EDEDED;text-decoration:none;transition:color .2s}a:hover{color:#C8FF2E}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.cursor{animation:blink 1s steps(1) infinite}
+.dot{animation:pulse 1.6s ease-in-out infinite}
+.marquee{animation:marquee 40s linear infinite}
+.card{transition:border-color .25s,transform .25s}
+.card:hover{border-color:#5A5A5A !important;transform:translateY(-3px)}
+.pill{transition:transform .2s,filter .2s}
+.pill:hover{transform:translateY(-1px);filter:brightness(1.08)}
+@media (prefers-reduced-motion: reduce){.marquee,.cursor,.dot{animation:none}.card:hover{transform:none}}
+</style>
+<style>html{scroll-behavior:smooth}section[id]{scroll-margin-top:80px}img{max-width:100%}</style>
+</head>
+<body>
+<div style="background: #0A0A0A; color: #EDEDED; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 14px; line-height: 1.6; min-height: 100vh">
+
+<!-- NAV -->
+<header style="position: sticky; top: 0; z-index: 10; background: rgba(10,10,10,0.9); border-bottom: 1px solid #1F1F1F">
+<nav aria-label="Primary" style="max-width: 1320px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#home" style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.01em; color: #C8FF2E">ALBI_</a>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; font-size: 13px; letter-spacing: 0.04em">
+<a href="#home" style="color: #C8FF2E">01/HOME</a>
+<a href="#work">02/PROJECTS</a>
+<a href="#stack">03/STACK</a>
+<a href="#history">04/ABOUT</a>
+<a href="#contact">05/CONTACT</a>
+</div>
+<a class="pill" href="#contact" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 24px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-weight: 500; font-size: 13px; letter-spacing: 0.08em">INIT_CONV</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" style="background-color: #0A0A0A; background-image: radial-gradient(#1C1C1C 1px, transparent 1px); background-size: 6px 6px; border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 56px 32px 72px; display: flex; flex-wrap: wrap; gap: 48px; justify-content: space-between">
+<div style="flex: 999 1 560px; display: flex; flex-direction: column; justify-content: space-between; gap: 64px">
+<span style="font-size: 12px; color: #8A8A8A; letter-spacing: 0.16em">DEVFOLIO — 2026</span>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(64px, 9.5vw, 150px); line-height: 0.88; letter-spacing: -0.045em; text-transform: uppercase">Hey, I’m<br><span style="color: #C8FF2E">Albi<br>Mathews</span><span class="cursor" style="color: #C8FF2E">_</span></h1>
+<p style="margin: 0; max-width: 560px; font-family: 'Inter', sans-serif; font-size: 19px; line-height: 1.65; color: #9A9A9A">Full-stack AI systems engineer <span style="color: #C8FF2E">based in Kerala.</span> I ship production LLM systems end to end — backend, orchestration, DevOps and cloud — and I care about the details that make software feel right.</p>
+</div>
+<div style="flex: 0 1 340px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; gap: 32px">
+<div style="width: 100%; max-width: 340px; display: flex; flex-direction: column; gap: 22px">
+<div style="width: 100%; aspect-ratio: 4 / 5; overflow: hidden">
+<img src="assets/albi-portrait.jpg" alt="Portrait of Albi Mathews in orange sunglasses" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 16%; transform: scale(1.45); transform-origin: 50% 12%; display: block; filter: contrast(1.08)">
+</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 12px; font-size: 13px">
+<span style="display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px; border: 1px solid #2E2E2E; border-radius: 4px; color: #C8FF2E; font-size: 12px; letter-spacing: 0.16em"><span class="dot" aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: #C8FF2E; display: inline-block"></span>AVAILABLE TO WORK</span>
+<span><span data-clock>--:--</span> <span style="color: #8A8A8A">Asia/Kolkata</span></span>
+<a class="pill" href="#contact" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 28px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-weight: 500; letter-spacing: 0.08em">INIT_CONV</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FULL-BLEED PORTRAIT -->
+<section aria-label="Portrait" style="position: relative; border-bottom: 1px solid #1F1F1F">
+<img src="assets/albi-wide.jpg" alt="Albi Mathews in profile, lit in cyan and amber" style="width: 100%; aspect-ratio: 2400 / 1018; min-height: 360px; object-fit: cover; object-position: 60% 30%; display: block">
+</section>
+
+
+<main>
+
+<!-- VITAL STATS -->
+<section aria-labelledby="stats-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="stats-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">01 /</span>Vital_Stats</h2>
+<p style="margin: 0; max-width: 380px; color: #8A8A8A; font-size: 13px">Two years of shipping production code — from model-inference APIs to platforms thousands of businesses use every day.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div class="card" style="padding: 32px; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F">
+<div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 80px; line-height: 1; letter-spacing: -0.04em">2.2K<span style="color: #C8FF2E">+</span></div>
+<div style="margin-top: 18px; color: #8A8A8A; font-size: 13px">Businesses running on systems I built</div>
+</div>
+<div class="card" style="padding: 32px; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F">
+<div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 80px; line-height: 1; letter-spacing: -0.04em">05</div>
+<div style="margin-top: 18px; color: #8A8A8A; font-size: 13px">Languages live in production conversation flows</div>
+</div>
+<div class="card" style="padding: 32px; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F">
+<div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 80px; line-height: 1; letter-spacing: -0.04em">03</div>
+<div style="margin-top: 18px; color: #8A8A8A; font-size: 13px">Engineering roles since 2024</div>
+</div>
+<div class="card" style="padding: 32px; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F">
+<div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 80px; line-height: 1; letter-spacing: -0.04em">01</div>
+<div style="margin-top: 18px; color: #8A8A8A; font-size: 13px">Open-source library on PyPI, authored and maintained</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SELECTED WORK -->
+<section id="work" aria-labelledby="work-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="work-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">02 /</span>Selected_Work</h2>
+<p style="margin: 0; max-width: 380px; color: #8A8A8A; font-size: 13px">A production platform, an open-source library and a native desktop app — three different shapes of the same habit.</p>
+</div>
+
+<!-- Featured: GuddConnects -->
+<article class="card" style="display: flex; flex-wrap: wrap; border: 1px solid #262626; border-radius: 6px; overflow: hidden; background: #0F0F0F">
+<div aria-hidden="true" style="flex: 1 1 520px; min-height: 420px; background-color: #121212; background-image: linear-gradient(#1C1C1C 1px, transparent 1px), linear-gradient(90deg, #1C1C1C 1px, transparent 1px); background-size: 32px 32px; padding: 40px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 14px; font-size: 13px">
+<div style="display: flex; justify-content: space-between; color: #8A8A8A; font-size: 11px; letter-spacing: 0.14em"><span>WHATSAPP // +91 GUDDCONNECTS</span><span style="color: #C8FF2E">● LIVE</span></div>
+<div style="align-self: flex-start; max-width: 72%; padding: 12px 16px; background: #1C1C1C; border: 1px solid #2E2E2E; border-radius: 4px">&gt; I run a bakery in Mysuru. Need a logo + posts.</div>
+<div style="align-self: flex-end; max-width: 72%; padding: 12px 16px; background: #C8FF2E; color: #0A0A0A; border-radius: 4px; font-weight: 500">&lt; Brand kit ready ✓ Logo · palette · 3 posts (ಕನ್ನಡ)</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 8px; font-size: 11px; letter-spacing: 0.08em">
+<span style="padding: 10px; border: 1px solid #2E2E2E; text-align: center">BRAND_KIT</span><span style="padding: 10px; border: 1px solid #2E2E2E; text-align: center">LOGO</span><span style="padding: 10px; border: 1px solid #2E2E2E; text-align: center">CATALOG</span><span style="padding: 10px; border: 1px solid #2E2E2E; text-align: center">BIZ_CARD</span>
+</div>
+<div style="color: #8A8A8A; font-size: 12px; margin-top: 4px">classify → brand_dna → creative_direction → art_director → render</div>
+</div>
+<div style="flex: 1 1 400px; padding: 40px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A; letter-spacing: 0.08em"><span>01 · PRODUCTION · 2026</span><span>THINKGUDD</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 4vw, 56px); line-height: 0.95; letter-spacing: -0.03em"><a href="https://www.thinkgudd.com/guddconnect" target="_blank" rel="noopener">GUDDCONNECTS ↗</a></h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.65; color: #B5B5B5">A WhatsApp-native branding and marketing platform used by around 2,200 MSMEs across tier 2–4 Indian cities. Brand kits, logos, business cards, social posts and catalogs — entirely by chat, no design skills needed.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13px; color: #C4C4C4">
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">→</span><span>Multi-layer Gemini Pro pipeline: business classification, brand DNA synthesis and creative direction across photo, digital, craft and food verticals</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">→</span><span>Brand memory engine keeps each business’s visual identity consistent post to post</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">→</span><span>Five-language flow with 5–6 question onboarding and native WhatsApp lists</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">→</span><span>Sister product Mediawala: AI Instagram posts with a content-aware art director</span></li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px">
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">FASTAPI</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">GEMINI PRO</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">WHATSAPP API</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">PIL</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">GCP</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="pill" href="https://www.thinkgudd.com/guddconnect" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-size: 13px; font-weight: 500; letter-spacing: 0.06em">VISIT GUDDCONNECTS ↗</a>
+</div>
+</div>
+</article>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px; margin-top: 24px">
+
+<!-- ContextEngine -->
+<article class="card" style="border: 1px solid #262626; border-radius: 6px; overflow: hidden; background: #0F0F0F; display: flex; flex-direction: column">
+<div aria-hidden="true" style="aspect-ratio: 16 / 9; background: #0A0A0A; border-bottom: 1px solid #262626; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 8px; font-size: 13px">
+<div style="display: flex; gap: 6px; margin-bottom: 10px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #2E2E2E"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #2E2E2E"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #C8FF2E"></span></div>
+<div><span style="color: #C8FF2E">$</span> pip install contextengine-ai</div>
+<div style="color: #8A8A8A">Successfully installed contextengine-ai</div>
+<div style="margin-top: 10px"><span style="color: #8A8A8A">&gt;&gt;&gt;</span> engine.store(turn)</div>
+<div><span style="color: #8A8A8A">&gt;&gt;&gt;</span> engine.build(query, budget=4096)</div>
+<div style="color: #C8FF2E">[ctx] 12 memories · 3,911 / 4,096 tokens · hybrid</div>
+</div>
+<div style="padding: 32px; display: flex; flex-direction: column; gap: 16px; flex: 1 1 auto">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A; letter-spacing: 0.08em"><span>02 · OPEN SOURCE</span><span>AUTHOR &amp; MAINTAINER</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 40px; line-height: 1; letter-spacing: -0.03em"><a href="https://pypi.org/project/contextengine-ai/" target="_blank" rel="noopener">CONTEXTENGINE ↗</a></h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.65; color: #B5B5B5">A vendor-agnostic memory and context engine that fixes the stateless-LLM problem: it stores interactions, retrieves them with semantic or hybrid search, and trims context to a token budget. Swappable memory backends; first community PR merged.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px">
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">PYTHON</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">EMBEDDINGS</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">VECTOR STORES</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">PYPI</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="pill" href="https://pypi.org/project/contextengine-ai/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-size: 13px; font-weight: 500; letter-spacing: 0.06em">PYPI ↗</a>
+<a class="pill" href="https://github.com/Albimathew62" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid #3A3A3A; font-size: 13px; letter-spacing: 0.06em">GITHUB ↗</a>
+</div>
+</div>
+</article>
+
+<!-- Amphion -->
+<article class="card" style="border: 1px solid #262626; border-radius: 6px; overflow: hidden; background: #0F0F0F; display: flex; flex-direction: column">
+<div aria-hidden="true" style="aspect-ratio: 16 / 9; background: #0A0A0A; border-bottom: 1px solid #262626; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-end; gap: 14px; font-size: 12px">
+<div style="display: flex; align-items: flex-end; gap: 6px; height: 96px">
+<span style="flex: 1 1 0; height: 40%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 72%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 55%; background: #C8FF2E"></span><span style="flex: 1 1 0; height: 92%; background: #C8FF2E"></span><span style="flex: 1 1 0; height: 66%; background: #C8FF2E"></span><span style="flex: 1 1 0; height: 82%; background: #C8FF2E"></span><span style="flex: 1 1 0; height: 30%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 78%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 50%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 68%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 35%; background: #2E2E2E"></span><span style="flex: 1 1 0; height: 58%; background: #2E2E2E"></span>
+</div>
+<div style="display: flex; justify-content: space-between; color: #8A8A8A"><span>▶ NOW PLAYING</span><span>01:42 / 03:58</span></div>
+<div style="height: 2px; background: #2E2E2E"><div style="width: 43%; height: 2px; background: #C8FF2E"></div></div>
+<div style="color: #8A8A8A">tauri ⇄ rust sidecar ⇄ fastapi.exe</div>
+</div>
+<div style="padding: 32px; display: flex; flex-direction: column; gap: 16px; flex: 1 1 auto">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A; letter-spacing: 0.08em"><span>03 · OPEN SOURCE</span><span>NATIVE WINDOWS</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 40px; line-height: 1; letter-spacing: -0.03em"><a href="https://github.com/Albimathew62/amphion" target="_blank" rel="noopener">AMPHION ↗</a></h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.65; color: #B5B5B5">A free, ad-free YouTube Music desktop client: search, playback, library and downloads. FastAPI backend frozen with PyInstaller, spawned as a Rust sidecar, shipped as a single executable.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px">
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">TAURI</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">RUST</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">REACT + TS</span><span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">FASTAPI</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="pill" href="https://github.com/Albimathew62/amphion" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-size: 13px; font-weight: 500; letter-spacing: 0.06em">VIEW ON GITHUB ↗</a>
+</div>
+</div>
+</article>
+
+</div>
+
+<!-- Archive -->
+<div style="margin-top: 80px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A; letter-spacing: 0.14em; margin-bottom: 8px"><span>ARCHIVE / MORE_BUILDS</span><span>03</span></div>
+<div style="border-top: 1px solid #262626">
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px 24px; align-items: baseline; padding: 24px 0; border-bottom: 1px solid #262626">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.01em">AI Interview Evaluator</span>
+<span style="font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px">Mock interviews with live video, multimodal emotion analysis and LLM-scored answers</span>
+<span style="color: #C8FF2E; font-size: 12px; letter-spacing: 0.1em; text-align: right">CV + NLP + LLM · 2025</span>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px 24px; align-items: baseline; padding: 24px 0; border-bottom: 1px solid #262626">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.01em">Block Vote</span>
+<span style="font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px">Blockchain-integrated voting system</span>
+<span style="color: #C8FF2E; font-size: 12px; letter-spacing: 0.1em; text-align: right">BLOCKCHAIN · [YEAR]</span>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px 24px; align-items: baseline; padding: 24px 0; border-bottom: 1px solid #262626">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.01em">Attendance</span>
+<span style="font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px">Automated attendance registry</span>
+<span style="color: #C8FF2E; font-size: 12px; letter-spacing: 0.1em; text-align: right">COMPUTER VISION · [YEAR]</span>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- TECH STACK -->
+<section id="stack" aria-labelledby="stack-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="stack-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">03 /</span>Tech_Stack</h2>
+<span style="font-size: 12px; color: #8A8A8A"><span style="color: #C8FF2E">$</span> tree ~/skills --depth 1</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px">
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>01</span><span style="color: #C8FF2E">~/skills/ai_llm</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">AI &amp; LLMs</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">LLM integration</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Multi-agent orchestration</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">RAG pipelines</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Embeddings</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Semantic search</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Prompt engineering</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">NLP</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Computer vision</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>02</span><span style="color: #C8FF2E">~/skills/ml</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">ML Frameworks</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">SentenceTransformers</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">OpenCV</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Hugging Face</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>03</span><span style="color: #C8FF2E">~/skills/backend</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">Backend</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">FastAPI</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">REST API design</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Microservices</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Webhooks</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">WhatsApp Business API</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>04</span><span style="color: #C8FF2E">~/skills/lang</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">Languages</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Python</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">TypeScript</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">JavaScript</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Java</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">SQL</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">C</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">HTML/CSS</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>05</span><span style="color: #C8FF2E">~/skills/frontend</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">Frontend &amp; Desktop</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">React</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Vite</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">TypeScript</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Tauri</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>06</span><span style="color: #C8FF2E">~/skills/cloud</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">DevOps &amp; Cloud</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">GCP</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">CI/CD</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">PyInstaller</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Rust sidecars</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Git</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>07</span><span style="color: #C8FF2E">~/skills/data</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">Databases</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">PostgreSQL</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">MongoDB</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">MySQL</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">SQLite</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Vector stores</span>
+
+</div>
+</div>
+
+<div class="card" style="border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>08</span><span style="color: #C8FF2E">~/skills/practice</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; line-height: 1.1">Practices</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">PyTest</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">PyPI publishing</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">Clean architecture</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">OOP</span>
+
+<span style="padding: 5px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 12px; color: #C4C4C4">DSA</span>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section aria-labelledby="svc-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="svc-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">04 /</span>Services_Running</h2>
+<p style="margin: 0; max-width: 380px; color: #8A8A8A; font-size: 13px">What I can own for you, from the first prompt to the last deploy.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px">
+
+<article class="card" style="background: #0F0F0F; border: 1px solid #262626; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>PID 0001</span><span style="color: #C8FF2E">● ACTIVE</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">LLM &amp; Agent Systems</h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px; line-height: 1.6">Multi-agent orchestration, RAG pipelines, embeddings and semantic search — built for production, not just a notebook.</p>
+<pre style="margin: 0; padding: 14px; background: #0A0A0A; border: 1px solid #262626; border-radius: 4px; font-family: inherit; font-size: 12px; line-height: 1.7; color: #C4C4C4; overflow-x: auto">ctx = engine.build(
+  query, budget=4096,
+  retrieve="hybrid")</pre>
+</article>
+
+<article class="card" style="background: #0F0F0F; border: 1px solid #262626; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>PID 0002</span><span style="color: #C8FF2E">● ACTIVE</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">Backend &amp; APIs</h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px; line-height: 1.6">FastAPI services, REST design, microservices, model-inference endpoints and real-time webhooks.</p>
+<pre style="margin: 0; padding: 14px; background: #0A0A0A; border: 1px solid #262626; border-radius: 4px; font-family: inherit; font-size: 12px; line-height: 1.7; color: #C4C4C4; overflow-x: auto">@app.post("/webhook")
+async def inbound(evt):
+    await router.dispatch(evt)</pre>
+</article>
+
+<article class="card" style="background: #0F0F0F; border: 1px solid #262626; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>PID 0003</span><span style="color: #C8FF2E">● ACTIVE</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">Full-Stack &amp; Desktop</h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px; line-height: 1.6">React + TypeScript frontends on Vite, and native desktop apps packaged with Tauri, PyInstaller and Rust sidecars.</p>
+<ul style="margin: 0; padding: 14px; list-style: none; background: #0A0A0A; border: 1px solid #262626; border-radius: 4px; font-size: 12px; line-height: 1.9; color: #C4C4C4">
+<li><span style="color: #C8FF2E">[✓]</span> UI build</li>
+<li><span style="color: #C8FF2E">[✓]</span> Python sidecar</li>
+<li><span style="color: #C8FF2E">[✓]</span> Single .exe</li>
+</ul>
+</article>
+
+<article class="card" style="background: #0F0F0F; border: 1px solid #262626; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>PID 0004</span><span style="color: #C8FF2E">● ACTIVE</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.1">Cloud &amp; DevOps</h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; color: #9A9A9A; font-size: 14px; line-height: 1.6">GCP hosting, CI/CD, PyTest and package publishing — the whole path from commit to production.</p>
+<ul style="margin: 0; padding: 14px; list-style: none; background: #0A0A0A; border: 1px solid #262626; border-radius: 4px; font-size: 12px; line-height: 1.9; color: #C4C4C4">
+<li><span style="color: #C8FF2E">[✓]</span> Tests pass</li>
+<li><span style="color: #C8FF2E">[✓]</span> Build &amp; deploy</li>
+<li><span style="color: #C8FF2E">[✓]</span> Publish to PyPI</li>
+</ul>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section aria-label="Philosophy" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 128px 32px">
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(34px, 4.8vw, 68px); line-height: 1.02; letter-spacing: -0.025em; text-transform: uppercase; max-width: 1150px">“I don’t chase trends. I build the tools I feel the <span style="color: #C8FF2E">absence</span> of — then put them in production.”</p>
+<div style="margin-top: 36px; display: flex; align-items: center; gap: 14px; font-size: 13px; color: #8A8A8A">
+<img src="assets/albi-bw.jpg" alt="" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; object-position: 50% 16%">
+<span><span style="color: #EDEDED">ALBI MATHEWS</span> · ~/README.md</span>
+</div>
+</div>
+</section>
+
+<!-- EXEC HISTORY -->
+<section id="history" aria-labelledby="hist-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="hist-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">05 /</span>Exec_History</h2>
+<span style="font-size: 12px; color: #8A8A8A">$ git log --author=albi --oneline</span>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+
+<li style="display: flex; flex-wrap: wrap; gap: 24px 48px; padding: 40px 0; border-top: 1px solid #262626">
+<div style="flex: 0 0 220px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 13px; color: #C8FF2E">FEB 2026 — PRESENT</span>
+<span style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 4px 10px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #C4C4C4"><span class="dot" aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: #C8FF2E; display: inline-block"></span>CURRENT</span>
+</div>
+<div style="flex: 999 1 480px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; line-height: 1.1">Full-Stack &amp; AI Systems Engineer</h3>
+<div style="font-size: 12px; color: #8A8A8A">~/THINKGUDD/ENGINEERING · Bangalore · social impact NGO</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; font-family: 'Inter', sans-serif; font-size: 15px; color: #C4C4C4; display: flex; flex-direction: column; gap: 10px">
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Sole engineer owning backend, AI systems, DevOps and cloud for two production WhatsApp AI products.</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Led a full overhaul of the image-generation pipeline: audited output, diagnosed text, semantic and routing failures, and designed a Gemini Pro art-director layer with dual-path routing.</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Cut onboarding from a long multi-step journey to 5–6 questions, adding returning-user logic, Kannada localization and native WhatsApp lists.</span></li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px"><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">FASTAPI</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">GEMINI PRO</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">META WEBHOOKS</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">GCP</span></div>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 24px 48px; padding: 40px 0; border-top: 1px solid #262626">
+<div style="flex: 0 0 220px; font-size: 13px; color: #8A8A8A">AUG 2025 — FEB 2026</div>
+<div style="flex: 999 1 480px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; line-height: 1.1">Python Developer</h3>
+<div style="font-size: 12px; color: #8A8A8A">~/SPACE_AI/ENGINEERING</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; font-family: 'Inter', sans-serif; font-size: 15px; color: #C4C4C4; display: flex; flex-direction: column; gap: 10px">
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Integrated production AI/ML models into Python services, streamlining model-to-API pipelines and cutting manual inference overhead.</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Designed REST APIs for model inference used across multiple internal services.</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Built preprocessing and feature-engineering modules that made downstream predictions more reliable.</span></li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px"><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">PYTHON</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">ML MODELS</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">REST APIS</span></div>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 24px 48px; padding: 40px 0; border-top: 1px solid #262626; border-bottom: 1px solid #262626">
+<div style="flex: 0 0 220px; font-size: 13px; color: #8A8A8A">NOV 2024 — FEB 2025</div>
+<div style="flex: 999 1 480px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; line-height: 1.1">Software Developer Intern</h3>
+<div style="font-size: 12px; color: #8A8A8A">~/LCC/BACKEND</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; font-family: 'Inter', sans-serif; font-size: 15px; color: #C4C4C4; display: flex; flex-direction: column; gap: 10px">
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Shipped Python backend features into production releases.</span></li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E; font-family: 'JetBrains Mono', monospace">→</span><span>Worked full debug-test-deploy cycles and CI/CD workflows alongside senior engineers.</span></li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px"><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">PYTHON</span><span style="padding: 4px 12px; border: 1px solid #2E2E2E; border-radius: 999px; font-size: 11px; color: #A3A3A3">CI/CD</span></div>
+</div>
+</li>
+
+</ol>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section aria-labelledby="edu-h" style="border-bottom: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<h2 id="edu-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.03em; text-transform: uppercase"><span style="display: block; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 16px">06 /</span>Education</h2>
+<span style="font-size: 12px; color: #8A8A8A">$ cat ~/education.md</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<article class="card" style="flex: 2 1 520px; min-width: 0; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 36px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; font-size: 12px; color: #8A8A8A"><span>DEGREE</span><span style="color: #C8FF2E">2021 — 2025</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.05; letter-spacing: -0.02em">B.Tech in Computer Science</h3>
+<p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 15px; color: #B5B5B5">A.P.J. Abdul Kalam Technological University, Kerala</p>
+<div style="font-size: 12px; color: #8A8A8A">~/APJ_ABDUL_KALAM_TECH_UNIV/CSE</div>
+</article>
+<article class="card" style="flex: 1 1 300px; border: 1px solid #262626; border-radius: 6px; background: #0F0F0F; padding: 36px; display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 12px; color: #8A8A8A">CERTIFICATIONS</div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 14px">
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">[✓]</span>Full Stack Development</li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">[✓]</span>Python Development</li>
+<li style="display: flex; gap: 12px"><span style="color: #C8FF2E">[✓]</span>Machine Learning &amp; Modern Medicine</li>
+</ul>
+</article>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-h">
+<div style="max-width: 1320px; margin: 0 auto; padding: 128px 32px 112px">
+<span style="display: block; font-size: 13px; letter-spacing: 0.14em; color: #C8FF2E; margin-bottom: 28px">07 / READY_STATE</span>
+<h2 id="contact-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(64px, 11vw, 168px); line-height: 0.88; letter-spacing: -0.045em; text-transform: uppercase">Got a<br><span style="color: #C8FF2E">project?</span></h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 48px">
+<p style="margin: 0; max-width: 520px; font-family: 'Inter', sans-serif; color: #B5B5B5; font-size: 18px; line-height: 1.6">LLM systems, backends, desktop apps or cloud infrastructure — or something you wish existed. Let’s talk.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="pill" href="mailto:albi89427@gmail.com" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 30px; border-radius: 999px; background: #C8FF2E; color: #0A0A0A; font-weight: 500; letter-spacing: 0.08em">INIT_CONV</a>
+<a class="pill" href="https://github.com/Albimathew62" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; border: 1px solid #3A3A3A">View source ↗</a>
+<a class="pill" href="assets/Albi_Mathews_Resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; border: 1px solid #3A3A3A">Resume ↗</a>
+</div>
+</div>
+<div style="margin-top: 64px; padding: 20px 22px; background: #0F0F0F; border: 1px solid #262626; border-radius: 6px; font-size: 14px"><span style="color: #C8FF2E">albi@mathews</span><span style="color: #8A8A8A">:~$</span> echo albi89427@gmail.com <span class="cursor" style="color: #C8FF2E">_</span></div>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #1F1F1F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 56px 32px 40px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div style="display: flex; align-items: center; gap: 20px">
+<img src="assets/albi-bw.jpg" alt="" style="width: 72px; height: 90px; object-fit: cover; object-position: 50% 16%">
+<div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 40px; line-height: 0.9; letter-spacing: -0.03em; text-transform: uppercase">Albi<br><span style="color: #C8FF2E">Mathews_</span></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 13px; letter-spacing: 0.06em">
+<a href="https://github.com/Albimathew62" target="_blank" rel="noopener">GITHUB ↗</a>
+<a href="https://www.linkedin.com/in/albimathew" target="_blank" rel="noopener">LINKEDIN ↗</a>
+<a href="https://pypi.org/project/contextengine-ai/" target="_blank" rel="noopener">PYPI ↗</a>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-top: 24px; border-top: 1px solid #1F1F1F; font-size: 12px; color: #8A8A8A">
+<span>© 2026 ALBI MATHEWS // STABLE_BUILD</span>
+<span>ADOOR, KERALA · <span data-clock>--:--</span> IST</span>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+  var els=document.querySelectorAll('[data-clock]');
+  function tick(){
+    var t;
+    try{t=new Date().toLocaleTimeString('en-GB',{timeZone:'Asia/Kolkata',hour12:false,hour:'2-digit',minute:'2-digit'});}catch(e){t='--:--';}
+    for(var i=0;i<els.length;i++)els[i].textContent=t;
+  }
+  tick();setInterval(tick,15000);
+})();
+</script>
+</body>
+</html>
